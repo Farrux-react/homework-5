@@ -1,0 +1,62 @@
+.header {
+    margin: 44px 79px 57px 83px;
+}
+
+.nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.hamburger {
+    display: none;  
+}
+
+.nav ul {
+    display: flex;
+    list-style: none;
+}
+
+.nav ul li a {
+    font-family: 'Barlow';
+    font-weight: 700;
+    font-size: 12px;
+    line-height: 15px;
+    color: #83888F;
+    text-decoration: none;
+    text-transform: uppercase;
+    margin-left: 33px;
+    transition: .5s;
+}
+
+.nav ul li a:hover {
+    color: #000;
+}
+
+@media only screen and (max-width: 768px) {
+
+    .header {
+        margin: 38px 35px 53px 35px;
+    }
+
+}
+
+@media only screen and (max-width: 375px) {
+
+    .header {
+        margin: 32px 24px ;
+    }
+
+    .header .logo {
+        width: 163px;
+    }
+
+    .header ul {
+        display: none;
+    }
+
+    .hamburger {
+        display: block;
+    }
+
+}
